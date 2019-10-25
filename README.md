@@ -14,17 +14,19 @@ Réaliser un système qui rendra les services suivants :
 
 
 
-| Binôme 1                | Binôme 2              | URL |
-|-------------------------|-----------------------|-----|
-| Kamal ARAAB             | Emma DOS SANTOS       |     |
-| Quentin AUBRY           | Valentin MONTAL       |     |
-| Lucas BARROS            | Jonathan ROCHELLI     |     |
-| Rémi BE                 | Vincent CIZEY         |     |
-| François-Xavier BECKERT | Edern HERVOUËT        |     |
-| Nicolas BRIET           | Mathieu OLIVES DELMAS |     |
-| Quentin CESCHIN         | Ancelin GLORIES       |     |
-| Thomas COLETTE          | Corentin GRANDCHAMPS  |     |
-| Bastien DIDIER          | Gilles LABROUSSE      |     |
-| Brian GRILLOT           | Ignacio MENDEZ POVEDA |     |
-| Thomas PALIS            | Adrien STORA          |     |
-| Laurianne SOULIGNAC     | Arthur REAU           |     |
+# Binômes
+
+| Binôme 1                | Binôme 2              | URL                                                                     |
+|-------------------------|-----------------------|-------------------------------------------------------------------------|
+| Kamal ARAAB             | Emma DOS SANTOS       | https://github.com/edossantos241/RequirementEngineeringExperimentations |
+| Quentin AUBRY           | Valentin MONTAL       |                                                                         |
+| Lucas BARROS            | Jonathan ROCHELLI     |                                                                         |
+| Rémi BE                 | Vincent CIZEY         |                                                                         |
+| François-Xavier BECKERT | Edern HERVOUËT        |                                                                         |
+| Nicolas BRIET           | Mathieu OLIVES DELMAS | https://github.com/ChiliChunk/re-experimentations                       |
+| Quentin CESCHIN         | Ancelin GLORIES       | https://github.com/quentinceschin123456/re-experimentations             |
+| Thomas COLETTE          | Corentin GRANDCHAMPS  | https://github.com/GrandchampsCorentin/re-experimentations              |
+| Bastien DIDIER          | Gilles LABROUSSE      | https://github.com/silverspy/Sysml-table                                |
+| Brian GRILLOT           | Ignacio MENDEZ POVEDA | https://github.com/kebabvegan/TP_re-experimentation                     |
+| Thomas PALIS            | Adrien STORA          | https://github.com/adrienstora/alfred                                   |
+| Laurianne SOULIGNAC     | Arthur REAU           |                                                                         |
