@@ -20,7 +20,7 @@ Réaliser un système qui rendra les services suivants :
 | Binôme 1                | Binôme 2              | URL                                                                     |
 |-------------------------|-----------------------|-------------------------------------------------------------------------|
 | Kamal ARAAB             | Emma DOS SANTOS       | https://github.com/edossantos241/RequirementEngineeringExperimentations |
-| Quentin AUBRY           | Valentin MONTAL       |                                                                         |
+| Quentin AUBRY           | Valentin MONTAL       | https://github.com/Breahkd46/ingenierie_sys                             |
 | Lucas BARROS            | Jonathan ROCHELLI     | https://github.com/Barros-Lucas/Alfred_Requirement                      |
 | Rémi BE                 | Vincent CIZEY         | https://github.com/kideisui/be_cizey_re-experimentations.git            |
 | François-Xavier BECKERT | Edern HERVOUËT        | https://github.com/EHdyod/re-experimentations                           |
@@ -30,7 +30,7 @@ Réaliser un système qui rendra les services suivants :
 | Bastien DIDIER          | Gilles LABROUSSE      | https://github.com/silverspy/Sysml-table                                |
 | Brian GRILLOT           | Ignacio MENDEZ POVEDA | https://github.com/kebabvegan/TP_re-experimentation                     |
 | Thomas PALIS            | Adrien STORA          | https://github.com/adrienstora/alfred                                   |
-| Laurianne SOULIGNAC     | Arthur REAU           |                                                                         |
+| Laurianne SOULIGNAC     | Arthur REAU           | https://github.com/reauarthur/requirementAlfred.git                     |
 
 ## Techniques de modélisation
 
