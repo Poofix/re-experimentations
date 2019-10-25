@@ -36,7 +36,7 @@ Réaliser un système qui rendra les services suivants :
 
 - Table des matières des catégories d'exigences, référencement des exigences
 - Tableur de référencement des exigences
-- Diagramme de Use Case
+- Modélisation via des User story
 - Diagramme de référencement des exigences avec SysML
 - Tableur de référencement des exigences avec SysML
 - Utilisation d'un langage formel d'expression d'exigences : [Requirements Specific Modeling Language (RSML)](https://oatao.univ-toulouse.fr/22639/1/galinier_22639.pdf)
