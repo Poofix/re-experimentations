@@ -39,7 +39,7 @@ Réaliser un système qui rendra les services suivants :
 - Diagramme de Use Case
 - Diagramme de référencement des exigences avec SysML
 - Tableur de référencement des exigences avec SysML
-- Utilisation d'un langage formel d'expression d'exigences : Requirements Specific Modeling Language (RSML)
+- Utilisation d'un langage formel d'expression d'exigences : [Requirements Specific Modeling Language (RSML)](https://oatao.univ-toulouse.fr/22639/1/galinier_22639.pdf)
 
 ## Références
 
