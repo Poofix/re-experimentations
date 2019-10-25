@@ -31,3 +31,17 @@ Réaliser un système qui rendra les services suivants :
 | Brian GRILLOT           | Ignacio MENDEZ POVEDA | https://github.com/kebabvegan/TP_re-experimentation                     |
 | Thomas PALIS            | Adrien STORA          | https://github.com/adrienstora/alfred                                   |
 | Laurianne SOULIGNAC     | Arthur REAU           |                                                                         |
+
+## Techniques de modélisation
+
+- Table des matières des catégories d'exigences, référencement des exigences
+- Tableur de référencement des exigences
+- Diagramme de Use Case
+- Diagramme de référencement des exigences avec SysML
+- Tableur de référencement des exigences avec SysML
+- Utilisation d'un langage formel d'expression d'exigences : Requirements Specific Modeling Language (RSML)
+
+## Références
+
+Antoine Dupuy
+Etudiant en Master d'Informatique Collaborative en Entreprise, 1ère année
