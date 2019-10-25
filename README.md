@@ -43,5 +43,5 @@ Réaliser un système qui rendra les services suivants :
 
 ## Références
 
-Antoine Dupuy
+Antoine Dupuy  
 Etudiant en Master d'Informatique Collaborative en Entreprise, 1ère année
