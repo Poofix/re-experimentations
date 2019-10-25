@@ -21,8 +21,8 @@ Réaliser un système qui rendra les services suivants :
 |-------------------------|-----------------------|-------------------------------------------------------------------------|
 | Kamal ARAAB             | Emma DOS SANTOS       | https://github.com/edossantos241/RequirementEngineeringExperimentations |
 | Quentin AUBRY           | Valentin MONTAL       |                                                                         |
-| Lucas BARROS            | Jonathan ROCHELLI     |                                                                         |
-| Rémi BE                 | Vincent CIZEY         |                                                                         |
+| Lucas BARROS            | Jonathan ROCHELLI     | https://github.com/Barros-Lucas/Alfred_Requirement                      |
+| Rémi BE                 | Vincent CIZEY         | https://github.com/kideisui/be_cizey_re-experimentations.git            |
 | François-Xavier BECKERT | Edern HERVOUËT        | https://github.com/EHdyod/re-experimentations                           |
 | Nicolas BRIET           | Mathieu OLIVES DELMAS | https://github.com/ChiliChunk/re-experimentations                       |
 | Quentin CESCHIN         | Ancelin GLORIES       | https://github.com/quentinceschin123456/re-experimentations             |
