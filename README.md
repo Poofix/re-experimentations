@@ -26,11 +26,11 @@ Réaliser un système qui rendra les services suivants :
 | US | Lucas BARROS            | Jonathan ROCHELLI     | https://github.com/Barros-Lucas/Alfred_Requirement                      |
 | US | Brian GRILLOT           | Ignacio MENDEZ POVEDA | https://github.com/kebabvegan/TP_re-experimentation                     |
 | Papyrus Req | Rémi BE                 | Vincent CIZEY         | https://github.com/kideisui/be_cizey_re-experimentations.git            |
-| Papyrus Tab | François-Xavier BECKERT | Edern HERVOUËT        | https://github.com/EHdyod/re-experimentations                           |
+| Papyrus Req | Thomas PALIS            | Adrien STORA          | https://github.com/adrienstora/alfred                                   |
 | RSML | Nicolas BRIET           | Mathieu OLIVES DELMAS | https://github.com/ChiliChunk/re-experimentations                       |
 | RSML | Laurianne SOULIGNAC     | Arthur REAU           | https://github.com/reauarthur/requirementAlfred.git                     |
 | Papyrus Tab | Bastien DIDIER          | Gilles LABROUSSE      | https://github.com/silverspy/Sysml-table                                |
-| Papyrus Req | Thomas PALIS            | Adrien STORA          | https://github.com/adrienstora/alfred                                   |
+| Papyrus Tab | François-Xavier BECKERT | Edern HERVOUËT        | https://github.com/EHdyod/re-experimentations                           |
 
 ## Techniques de modélisation
 
