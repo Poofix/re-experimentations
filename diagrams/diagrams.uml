@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:DeprecatedElements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/DeprecatedElements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/DeprecatedElements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements">
   <uml:Model xmi:id="_Pm0z0BpjEeq-Gqhb9j-Jeg" name="diagrams">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_PqM38BpjEeq-Gqhb9j-Jeg">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -7,7 +7,78 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_PqZFMBpjEeq-Gqhb9j-Jeg">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Class" xmi:id="_Pq1xIBpjEeq-Gqhb9j-Jeg" name="Block13"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Pq1xIBpjEeq-Gqhb9j-Jeg" name="Voiture">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xjWxoBqNEeq-Gqhb9j-Jeg" name="Batterie" visibility="public" type="_Pq1xIBpjEeq-Gqhb9j-Jeg" aggregation="composite" association="_6gymsBqNEeq-Gqhb9j-Jeg"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_Ce6T0BqOEeq-Gqhb9j-Jeg" name="Prise Electrique" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ME8Z8BqOEeq-Gqhb9j-Jeg" name="Capteur" visibility="public" type="_AHzb4Bp1Eeq-Gqhb9j-Jeg" aggregation="composite" association="_Ne0-ABqOEeq-Gqhb9j-Jeg"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_Tj6F4BqOEeq-Gqhb9j-Jeg" name="Emit Datas" aggregation="composite"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_JNHRMBqOEeq-Gqhb9j-Jeg" name="Connector3">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_JNPNABqOEeq-Gqhb9j-Jeg" role="_xjWxoBqNEeq-Gqhb9j-Jeg"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_JNP0EBqOEeq-Gqhb9j-Jeg" role="_Ce6T0BqOEeq-Gqhb9j-Jeg"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_RaBBMBqOEeq-Gqhb9j-Jeg" name="Connector5">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_RaCPUBqOEeq-Gqhb9j-Jeg" role="_ME8Z8BqOEeq-Gqhb9j-Jeg"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_RaCPURqOEeq-Gqhb9j-Jeg" role="_xjWxoBqNEeq-Gqhb9j-Jeg"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_ZPyDkBqOEeq-Gqhb9j-Jeg" name="Connector7">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ZPzRsBqOEeq-Gqhb9j-Jeg" role="_Tj6F4BqOEeq-Gqhb9j-Jeg"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ZPzRsRqOEeq-Gqhb9j-Jeg" role="_ME8Z8BqOEeq-Gqhb9j-Jeg"/>
+      </ownedConnector>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_1J6hQBqQEeq-Gqhb9j-Jeg" name="Voiture">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_1J6hQRqQEeq-Gqhb9j-Jeg" name="Batterie" visibility="public" type="_1J6hQBqQEeq-Gqhb9j-Jeg" aggregation="composite" association="_1avLghqQEeq-Gqhb9j-Jeg"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_1J6hQhqQEeq-Gqhb9j-Jeg" name="Prise Electrique" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_1J6hQxqQEeq-Gqhb9j-Jeg" name="Capteur" visibility="public" type="_AHzb4Bp1Eeq-Gqhb9j-Jeg" aggregation="composite" association="_1avLgBqQEeq-Gqhb9j-Jeg"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_1J6hRBqQEeq-Gqhb9j-Jeg" name="Emit Datas" aggregation="composite"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_1J6hRRqQEeq-Gqhb9j-Jeg" name="Connector3">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_1J6hRhqQEeq-Gqhb9j-Jeg" role="_1J6hQRqQEeq-Gqhb9j-Jeg"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_1J6hRxqQEeq-Gqhb9j-Jeg" role="_1J6hQhqQEeq-Gqhb9j-Jeg"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_1J6hSBqQEeq-Gqhb9j-Jeg" name="Connector5">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_1J6hSRqQEeq-Gqhb9j-Jeg" role="_1J6hQxqQEeq-Gqhb9j-Jeg"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_1J6hShqQEeq-Gqhb9j-Jeg" role="_1J6hQRqQEeq-Gqhb9j-Jeg"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_1J6hSxqQEeq-Gqhb9j-Jeg" name="Connector7">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_1J6hTBqQEeq-Gqhb9j-Jeg" role="_1J6hRBqQEeq-Gqhb9j-Jeg"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_1J6hTRqQEeq-Gqhb9j-Jeg" role="_1J6hQxqQEeq-Gqhb9j-Jeg"/>
+        </ownedConnector>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_11xhsBqQEeq-Gqhb9j-Jeg" name="CopyOf_Voiture_8">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_11xhsRqQEeq-Gqhb9j-Jeg" name="Batterie" visibility="public" type="_11xhsBqQEeq-Gqhb9j-Jeg" aggregation="composite" association="_2ZiWEBqQEeq-Gqhb9j-Jeg"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_11xhshqQEeq-Gqhb9j-Jeg" name="Prise Electrique" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_11xhsxqQEeq-Gqhb9j-Jeg" name="Capteur" visibility="public" type="_AHzb4Bp1Eeq-Gqhb9j-Jeg" aggregation="composite" association="_2ZhvAhqQEeq-Gqhb9j-Jeg"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_11xhtBqQEeq-Gqhb9j-Jeg" name="Emit Datas" aggregation="composite"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_11xhtRqQEeq-Gqhb9j-Jeg" name="Connector3">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_11xhthqQEeq-Gqhb9j-Jeg" role="_11xhsRqQEeq-Gqhb9j-Jeg"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_11xhtxqQEeq-Gqhb9j-Jeg" role="_11xhshqQEeq-Gqhb9j-Jeg"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_11xhuBqQEeq-Gqhb9j-Jeg" name="Connector5">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_11xhuRqQEeq-Gqhb9j-Jeg" role="_11xhsxqQEeq-Gqhb9j-Jeg"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_11xhuhqQEeq-Gqhb9j-Jeg" role="_11xhsRqQEeq-Gqhb9j-Jeg"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_11xhuxqQEeq-Gqhb9j-Jeg" name="Connector7">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_11xhvBqQEeq-Gqhb9j-Jeg" role="_11xhtBqQEeq-Gqhb9j-Jeg"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_11xhvRqQEeq-Gqhb9j-Jeg" role="_11xhsxqQEeq-Gqhb9j-Jeg"/>
+        </ownedConnector>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_11xhvhqQEeq-Gqhb9j-Jeg" name="Voiture">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_11xhvxqQEeq-Gqhb9j-Jeg" name="Batterie" visibility="public" type="_11xhvhqQEeq-Gqhb9j-Jeg" aggregation="composite" association="_2ZhH8BqQEeq-Gqhb9j-Jeg"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_11xhwBqQEeq-Gqhb9j-Jeg" name="Prise Electrique" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_11xhwRqQEeq-Gqhb9j-Jeg" name="Capteur" visibility="public" type="_AHzb4Bp1Eeq-Gqhb9j-Jeg" aggregation="composite" association="_2ZhvABqQEeq-Gqhb9j-Jeg"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_11xhwhqQEeq-Gqhb9j-Jeg" name="Emit Datas" aggregation="composite"/>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_11xhwxqQEeq-Gqhb9j-Jeg" name="Connector3">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_11xhxBqQEeq-Gqhb9j-Jeg" role="_11xhvxqQEeq-Gqhb9j-Jeg"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_11xhxRqQEeq-Gqhb9j-Jeg" role="_11xhwBqQEeq-Gqhb9j-Jeg"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_11xhxhqQEeq-Gqhb9j-Jeg" name="Connector5">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_11xhxxqQEeq-Gqhb9j-Jeg" role="_11xhwRqQEeq-Gqhb9j-Jeg"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_11xhyBqQEeq-Gqhb9j-Jeg" role="_11xhvxqQEeq-Gqhb9j-Jeg"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_11xhyRqQEeq-Gqhb9j-Jeg" name="Connector7">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_11xhyhqQEeq-Gqhb9j-Jeg" role="_11xhwhqQEeq-Gqhb9j-Jeg"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_11xhyxqQEeq-Gqhb9j-Jeg" role="_11xhwRqQEeq-Gqhb9j-Jeg"/>
+          </ownedConnector>
+        </nestedClassifier>
+      </nestedClassifier>
+    </packagedElement>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_Pr0BgBpjEeq-Gqhb9j-Jeg" name="Interaction14"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_bNsT0BpkEeqwoepTtIUh4g" name="Maison"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_eWHdUBpkEeqwoepTtIUh4g" name="Utilisateur"/>
@@ -118,6 +189,49 @@
       </ownedEnd>
       <ownedEnd xmi:type="uml:Property" xmi:id="_cjLLIBqHEeq-Gqhb9j-Jeg" name="voiture" type="_CM2nYBp2Eeq-Gqhb9j-Jeg" association="_cjJ9ABqHEeq-Gqhb9j-Jeg"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_6gymsBqNEeq-Gqhb9j-Jeg" memberEnd="_xjWxoBqNEeq-Gqhb9j-Jeg _6g1C8BqNEeq-Gqhb9j-Jeg">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_6g1C8BqNEeq-Gqhb9j-Jeg" type="_Pq1xIBpjEeq-Gqhb9j-Jeg" association="_6gymsBqNEeq-Gqhb9j-Jeg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Ne0-ABqOEeq-Gqhb9j-Jeg" memberEnd="_ME8Z8BqOEeq-Gqhb9j-Jeg _Ne2zMBqOEeq-Gqhb9j-Jeg">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Ne2zMBqOEeq-Gqhb9j-Jeg" type="_Pq1xIBpjEeq-Gqhb9j-Jeg" association="_Ne0-ABqOEeq-Gqhb9j-Jeg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1avLgBqQEeq-Gqhb9j-Jeg" memberEnd="_1avLgRqQEeq-Gqhb9j-Jeg _1J6hQxqQEeq-Gqhb9j-Jeg">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1avLgRqQEeq-Gqhb9j-Jeg" type="_Pq1xIBpjEeq-Gqhb9j-Jeg" association="_1avLgBqQEeq-Gqhb9j-Jeg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1avLghqQEeq-Gqhb9j-Jeg" memberEnd="_1avLgxqQEeq-Gqhb9j-Jeg _1J6hQRqQEeq-Gqhb9j-Jeg">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1avLgxqQEeq-Gqhb9j-Jeg" type="_Pq1xIBpjEeq-Gqhb9j-Jeg" association="_1avLghqQEeq-Gqhb9j-Jeg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_2ZhH8BqQEeq-Gqhb9j-Jeg" memberEnd="_2ZhH8RqQEeq-Gqhb9j-Jeg _11xhvxqQEeq-Gqhb9j-Jeg">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_2ZhH8RqQEeq-Gqhb9j-Jeg" type="_Pq1xIBpjEeq-Gqhb9j-Jeg" association="_2ZhH8BqQEeq-Gqhb9j-Jeg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_2ZhvABqQEeq-Gqhb9j-Jeg" memberEnd="_2ZhvARqQEeq-Gqhb9j-Jeg _11xhwRqQEeq-Gqhb9j-Jeg">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_2ZhvARqQEeq-Gqhb9j-Jeg" type="_Pq1xIBpjEeq-Gqhb9j-Jeg" association="_2ZhvABqQEeq-Gqhb9j-Jeg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_2ZhvAhqQEeq-Gqhb9j-Jeg" memberEnd="_2ZhvAxqQEeq-Gqhb9j-Jeg _11xhsxqQEeq-Gqhb9j-Jeg">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_2ZhvAxqQEeq-Gqhb9j-Jeg" type="_Pq1xIBpjEeq-Gqhb9j-Jeg" association="_2ZhvAhqQEeq-Gqhb9j-Jeg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_2ZiWEBqQEeq-Gqhb9j-Jeg" memberEnd="_2ZiWERqQEeq-Gqhb9j-Jeg _11xhsRqQEeq-Gqhb9j-Jeg">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_2ZiWERqQEeq-Gqhb9j-Jeg" type="_Pq1xIBpjEeq-Gqhb9j-Jeg" association="_2ZiWEBqQEeq-Gqhb9j-Jeg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8COc4BqQEeq-Gqhb9j-Jeg" name="T"/>
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_54-mgBqSEeq-Gqhb9j-Jeg" name="Cycle chargment Batterie">
+      <region xmi:type="uml:Region" xmi:id="_6K9HUBqSEeq-Gqhb9j-Jeg" name="Region1">
+        <transition xmi:type="uml:Transition" xmi:id="_j_VkQBqTEeq-Gqhb9j-Jeg" name="Oui" source="_SkCyEBqTEeq-Gqhb9j-Jeg" target="_Zad3UBqTEeq-Gqhb9j-Jeg"/>
+        <transition xmi:type="uml:Transition" xmi:id="_5xAg0BqTEeq-Gqhb9j-Jeg" name="Non" source="_SkCyEBqTEeq-Gqhb9j-Jeg" target="_SkCyEBqTEeq-Gqhb9j-Jeg"/>
+        <transition xmi:type="uml:Transition" xmi:id="_GP_xEBqUEeq-Gqhb9j-Jeg" source="_Zad3UBqTEeq-Gqhb9j-Jeg" target="_28-S8BqTEeq-Gqhb9j-Jeg"/>
+        <transition xmi:type="uml:Transition" xmi:id="_NUH7IBqUEeq-Gqhb9j-Jeg" name="Non" source="_28-S8BqTEeq-Gqhb9j-Jeg" target="_LHTeQBqUEeq-Gqhb9j-Jeg"/>
+        <transition xmi:type="uml:Transition" xmi:id="_OUfzABqUEeq-Gqhb9j-Jeg" name="Chargement" source="_LHTeQBqUEeq-Gqhb9j-Jeg" target="_Zad3UBqTEeq-Gqhb9j-Jeg"/>
+        <transition xmi:type="uml:Transition" xmi:id="_c_eZsBqUEeq-Gqhb9j-Jeg" name="Oui" source="_28-S8BqTEeq-Gqhb9j-Jeg" target="_Y0iDQBqUEeq-Gqhb9j-Jeg"/>
+        <transition xmi:type="uml:Transition" xmi:id="_lCyI0BqUEeq-Gqhb9j-Jeg" source="_Y0iDQBqUEeq-Gqhb9j-Jeg" target="_h3EawBqUEeq-Gqhb9j-Jeg"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_L6aLoBqTEeq-Gqhb9j-Jeg" name="Start"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_SkCyEBqTEeq-Gqhb9j-Jeg" name="Si 16h30 - 1h (15h30)" kind="choice"/>
+        <subvertex xmi:type="uml:State" xmi:id="_Zad3UBqTEeq-Gqhb9j-Jeg" name="Lecture du capteur"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_28-S8BqTEeq-Gqhb9j-Jeg" name="Batterie Chargé ?" kind="choice"/>
+        <subvertex xmi:type="uml:State" xmi:id="_LHTeQBqUEeq-Gqhb9j-Jeg" name="Chargement"/>
+        <subvertex xmi:type="uml:State" xmi:id="_Y0iDQBqUEeq-Gqhb9j-Jeg" name="Return OK au PC"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_h3EawBqUEeq-Gqhb9j-Jeg" name="End"/>
+      </region>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PnsWgBpjEeq-Gqhb9j-Jeg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pns9kBpjEeq-Gqhb9j-Jeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -190,4 +304,16 @@
   <Blocks:Block xmi:id="_AH3GUhp1Eeq-Gqhb9j-Jeg" base_Class="_AHzb4Bp1Eeq-Gqhb9j-Jeg"/>
   <Blocks:Block xmi:id="_D9J80Bp1Eeq-Gqhb9j-Jeg" base_Class="_D9IusBp1Eeq-Gqhb9j-Jeg"/>
   <Blocks:Block xmi:id="_CM4ckBp2Eeq-Gqhb9j-Jeg" base_Class="_CM2nYBp2Eeq-Gqhb9j-Jeg"/>
+  <DeprecatedElements:FlowPort xmi:id="_CfC2sBqOEeq-Gqhb9j-Jeg" base_Port="_Ce6T0BqOEeq-Gqhb9j-Jeg" direction="in"/>
+  <DeprecatedElements:FlowPort xmi:id="_Tj9wQBqOEeq-Gqhb9j-Jeg" base_Port="_Tj6F4BqOEeq-Gqhb9j-Jeg" direction="out"/>
+  <DeprecatedElements:FlowPort xmi:id="_1asvQBqQEeq-Gqhb9j-Jeg" base_Port="_1J6hQhqQEeq-Gqhb9j-Jeg" direction="in"/>
+  <Blocks:Block xmi:id="_1at9YBqQEeq-Gqhb9j-Jeg" base_Class="_1J6hQBqQEeq-Gqhb9j-Jeg"/>
+  <DeprecatedElements:FlowPort xmi:id="_1at9YRqQEeq-Gqhb9j-Jeg" base_Port="_1J6hRBqQEeq-Gqhb9j-Jeg" direction="out"/>
+  <DeprecatedElements:FlowPort xmi:id="_2ZfSwBqQEeq-Gqhb9j-Jeg" base_Port="_11xhshqQEeq-Gqhb9j-Jeg" direction="in"/>
+  <Blocks:Block xmi:id="_2Zf50BqQEeq-Gqhb9j-Jeg" base_Class="_11xhvhqQEeq-Gqhb9j-Jeg"/>
+  <DeprecatedElements:FlowPort xmi:id="_2Zf50RqQEeq-Gqhb9j-Jeg" base_Port="_11xhwhqQEeq-Gqhb9j-Jeg" direction="out"/>
+  <DeprecatedElements:FlowPort xmi:id="_2Zgg4BqQEeq-Gqhb9j-Jeg" base_Port="_11xhwBqQEeq-Gqhb9j-Jeg" direction="in"/>
+  <Blocks:Block xmi:id="_2Zgg4RqQEeq-Gqhb9j-Jeg" base_Class="_11xhsBqQEeq-Gqhb9j-Jeg"/>
+  <DeprecatedElements:FlowPort xmi:id="_2Zgg4hqQEeq-Gqhb9j-Jeg" base_Port="_11xhtBqQEeq-Gqhb9j-Jeg" direction="out"/>
+  <Blocks:Block xmi:id="_8CQ5IBqQEeq-Gqhb9j-Jeg" base_Class="_8COc4BqQEeq-Gqhb9j-Jeg"/>
 </xmi:XMI>
