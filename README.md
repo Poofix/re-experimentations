@@ -17,21 +17,6 @@ Réaliser un système qui rendra les services suivants :
 
 ## Binômes
 
-<style>
-table th:first-of-type {
-    width: 10%;
-}
-table th:nth-of-type(2) {
-    width: 10%;
-}
-table th:nth-of-type(3) {
-    width: 50%;
-}
-table th:nth-of-type(4) {
-    width: 30%;
-}
-</style>
-
 | Notation | Binôme 1                | Binôme 2              | URL initiale (exigences) | URL finale (SysML complet)               |
 |-------|-------------------------|-----------------------|-------------------------------------------------------------------------|--|
 | Libre | Kamal ARAAB             | Emma DOS SANTOS       | https://github.com/edossantos241/RequirementEngineeringExperimentations |   ??  |
