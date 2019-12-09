@@ -17,20 +17,20 @@ Réaliser un système qui rendra les services suivants :
 
 ## Binômes
 
-| Notation | Binôme 1                | Binôme 2              | URL                                                                     |
-|-------|-------------------------|-----------------------|-------------------------------------------------------------------------|
-| Libre | Kamal ARAAB             | Emma DOS SANTOS       | https://github.com/edossantos241/RequirementEngineeringExperimentations |
-| Libre | Quentin CESCHIN         | Ancelin GLORIES       | https://github.com/quentinceschin123456/re-experimentations             |
-| Tableur | Quentin AUBRY           | Valentin MONTAL       | https://github.com/Breahkd46/ingenierie_sys                             |
-| Tableur | Thomas COLETTE          | Corentin GRANDCHAMPS  | https://github.com/GrandchampsCorentin/re-experimentations              |
-| US | Lucas BARROS            | Jonathan ROCHELLI     | https://github.com/Barros-Lucas/Alfred_Requirement                      |
-| US | Brian GRILLOT           | Ignacio MENDEZ POVEDA | https://github.com/kebabvegan/TP_re-experimentation                     |
-| Papyrus Req | Rémi BE                 | Vincent CIZEY         | https://github.com/kideisui/be_cizey_re-experimentations.git            |
-| Papyrus Req | Thomas PALIS            | Adrien STORA          | https://github.com/adrienstora/alfred                                   |
-| RSML | Nicolas BRIET           | Mathieu OLIVES DELMAS | https://github.com/ChiliChunk/re-experimentations                       |
-| RSML | Laurianne SOULIGNAC     | Arthur REAU           | https://github.com/reauarthur/requirementAlfred.git                     |
-| Papyrus Tab | Bastien DIDIER          | Gilles LABROUSSE      | https://github.com/silverspy/Sysml-table                                |
-| Papyrus Tab | François-Xavier BECKERT | Edern HERVOUËT        | https://github.com/EHdyod/re-experimentations                           |
+| Notation | Binôme 1                | Binôme 2              | URL initiale (exigences) | URL finale (SysML complet)                                                                     |
+|-------|-------------------------|-----------------------|-------------------------------------------------------------------------|--|
+| Libre | Kamal ARAAB             | Emma DOS SANTOS       | https://github.com/edossantos241/RequirementEngineeringExperimentations |     |
+| Libre | Quentin CESCHIN         | Ancelin GLORIES       | https://github.com/quentinceschin123456/re-experimentations             |     |
+| Tableur | Quentin AUBRY           | Valentin MONTAL       | https://github.com/Breahkd46/ingenierie_sys                             |     |
+| Tableur | Thomas COLETTE          | Corentin GRANDCHAMPS  | https://github.com/GrandchampsCorentin/re-experimentations              |     |
+| US | Lucas BARROS            | Jonathan ROCHELLI     | https://github.com/Barros-Lucas/Alfred_Requirement                      |     |
+| US | Brian GRILLOT           | Ignacio MENDEZ POVEDA | https://github.com/kebabvegan/TP_re-experimentation                     |     |
+| Papyrus Req | Rémi BE                 | Vincent CIZEY         | https://github.com/kideisui/be_cizey_re-experimentations.git            |     |
+| Papyrus Req | Thomas PALIS            | Adrien STORA          | https://github.com/adrienstora/alfred                                   |     |
+| RSML | Nicolas BRIET           | Mathieu OLIVES DELMAS | https://github.com/ChiliChunk/re-experimentations                       |     |
+| RSML | Laurianne SOULIGNAC     | Arthur REAU           | https://github.com/reauarthur/requirementAlfred.git                     |     |
+| Papyrus Tab | Bastien DIDIER          | Gilles LABROUSSE      | https://github.com/silverspy/Sysml-table                                |     |
+| Papyrus Tab | François-Xavier BECKERT | Edern HERVOUËT        | https://github.com/EHdyod/re-experimentations                           |     |
 
 ## Techniques de modélisation
 
