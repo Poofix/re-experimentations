@@ -17,9 +17,9 @@ Réaliser un système qui rendra les services suivants :
 
 ## Binômes
 
-| Notation | Binôme 1                | Binôme 2              | URL initiale (exigences) | URL finale (SysML complet)  |                                                                   |
+| Notation | Binôme 1                | Binôme 2              | URL initiale (exigences) | URL finale (SysML complet)               |
 |-------|-------------------------|-----------------------|-------------------------------------------------------------------------|--|
-| Libre | Kamal ARAAB             | Emma DOS SANTOS       | https://github.com/edossantos241/RequirementEngineeringExperimentations |     |
+| Libre | Kamal ARAAB             | Emma DOS SANTOS       | https://github.com/edossantos241/RequirementEngineeringExperimentations |   ??  |
 | Libre | Quentin CESCHIN         | Ancelin GLORIES       | https://github.com/quentinceschin123456/re-experimentations             |     |
 | Tableur | Quentin AUBRY           | Valentin MONTAL       | https://github.com/Breahkd46/ingenierie_sys                             |     |
 | Tableur | Thomas COLETTE          | Corentin GRANDCHAMPS  | https://github.com/GrandchampsCorentin/re-experimentations              |     |
