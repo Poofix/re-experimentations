@@ -31,7 +31,7 @@ On aurait pu ajouter une batterie à la voiture, mais cela reste du détails pour 
 
 ## Le diagramme dynamique : Diagrame Machine à état
 
-![StateMachineDiagram](./diagrams/PNGs/SysML_1_4_State_Machine_Diagram.PNG)
+![StateMachineDiagram](./diagrams/PNGs/NewSysML1_4StateMachineDiagram.PNG)
 
 Nous allons supposer que la voiture met 1h à charger (il faudrait les specs de la voitures pour utiliser le bon temps)
 
