@@ -17,20 +17,20 @@ Réaliser un système qui rendra les services suivants :
 
 ## Binômes
 
-| Binôme 1                | Binôme 2              | URL                                                                     |
-|-------------------------|-----------------------|-------------------------------------------------------------------------|
-| Kamal ARAAB             | Emma DOS SANTOS       | https://github.com/edossantos241/RequirementEngineeringExperimentations |
-| Quentin AUBRY           | Valentin MONTAL       | https://github.com/Breahkd46/ingenierie_sys                             |
-| Lucas BARROS            | Jonathan ROCHELLI     | https://github.com/Barros-Lucas/Alfred_Requirement                      |
-| Rémi BE                 | Vincent CIZEY         | https://github.com/kideisui/be_cizey_re-experimentations.git            |
-| François-Xavier BECKERT | Edern HERVOUËT        | https://github.com/EHdyod/re-experimentations                           |
-| Nicolas BRIET           | Mathieu OLIVES DELMAS | https://github.com/ChiliChunk/re-experimentations                       |
-| Quentin CESCHIN         | Ancelin GLORIES       | https://github.com/quentinceschin123456/re-experimentations             |
-| Thomas COLETTE          | Corentin GRANDCHAMPS  | https://github.com/GrandchampsCorentin/re-experimentations              |
-| Bastien DIDIER          | Gilles LABROUSSE      | https://github.com/silverspy/Sysml-table                                |
-| Brian GRILLOT           | Ignacio MENDEZ POVEDA | https://github.com/kebabvegan/TP_re-experimentation                     |
-| Thomas PALIS            | Adrien STORA          | https://github.com/adrienstora/alfred                                   |
-| Laurianne SOULIGNAC     | Arthur REAU           | https://github.com/reauarthur/requirementAlfred.git                     |
+| Notation | Binôme 1                | Binôme 2              | URL                                                                     |
+|-------|-------------------------|-----------------------|-------------------------------------------------------------------------|
+| Libre | Kamal ARAAB             | Emma DOS SANTOS       | https://github.com/edossantos241/RequirementEngineeringExperimentations |
+| Tableur | Quentin AUBRY           | Valentin MONTAL       | https://github.com/Breahkd46/ingenierie_sys                             |
+| US | Lucas BARROS            | Jonathan ROCHELLI     | https://github.com/Barros-Lucas/Alfred_Requirement                      |
+| Papyrus Req | Rémi BE                 | Vincent CIZEY         | https://github.com/kideisui/be_cizey_re-experimentations.git            |
+| Papyrus Tab | François-Xavier BECKERT | Edern HERVOUËT        | https://github.com/EHdyod/re-experimentations                           |
+| RSML | Nicolas BRIET           | Mathieu OLIVES DELMAS | https://github.com/ChiliChunk/re-experimentations                       |
+| Libre | Quentin CESCHIN         | Ancelin GLORIES       | https://github.com/quentinceschin123456/re-experimentations             |
+| Tableur | Thomas COLETTE          | Corentin GRANDCHAMPS  | https://github.com/GrandchampsCorentin/re-experimentations              |
+| Papyrus Tab | Bastien DIDIER          | Gilles LABROUSSE      | https://github.com/silverspy/Sysml-table                                |
+| US | Brian GRILLOT           | Ignacio MENDEZ POVEDA | https://github.com/kebabvegan/TP_re-experimentation                     |
+| Papyrus Req | Thomas PALIS            | Adrien STORA          | https://github.com/adrienstora/alfred                                   |
+| RSML | Laurianne SOULIGNAC     | Arthur REAU           | https://github.com/reauarthur/requirementAlfred.git                     |
 
 ## Techniques de modélisation
 
