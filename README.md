@@ -27,6 +27,9 @@ On aurait pu ajouter une batterie à la voiture, mais cela reste du détails pour 
 
 ## Le diagramme de blocs internes 
 
+Voici comment la voiture est composé, un capteur se charge d'évaluer le niveau de la batterie et de transmettre l'information via un port sortant.
+La batterie va être chargé via une prise secteur en passant par le port d'entrée.
+
 ![InternalBlockDiagram](./diagrams/PNGs/SysML_1_4_Internal_Block_Diagram.PNG)
 
 ## Le diagramme dynamique : Diagrame Machine à état
