@@ -216,20 +216,23 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_8COc4BqQEeq-Gqhb9j-Jeg" name="T"/>
     <packagedElement xmi:type="uml:StateMachine" xmi:id="_54-mgBqSEeq-Gqhb9j-Jeg" name="Cycle chargment Batterie">
       <region xmi:type="uml:Region" xmi:id="_6K9HUBqSEeq-Gqhb9j-Jeg" name="Region1">
-        <transition xmi:type="uml:Transition" xmi:id="_j_VkQBqTEeq-Gqhb9j-Jeg" name="Oui" source="_SkCyEBqTEeq-Gqhb9j-Jeg" target="_Zad3UBqTEeq-Gqhb9j-Jeg"/>
-        <transition xmi:type="uml:Transition" xmi:id="_5xAg0BqTEeq-Gqhb9j-Jeg" name="Non" source="_SkCyEBqTEeq-Gqhb9j-Jeg" target="_SkCyEBqTEeq-Gqhb9j-Jeg"/>
         <transition xmi:type="uml:Transition" xmi:id="_GP_xEBqUEeq-Gqhb9j-Jeg" source="_Zad3UBqTEeq-Gqhb9j-Jeg" target="_28-S8BqTEeq-Gqhb9j-Jeg"/>
         <transition xmi:type="uml:Transition" xmi:id="_NUH7IBqUEeq-Gqhb9j-Jeg" name="Non" source="_28-S8BqTEeq-Gqhb9j-Jeg" target="_LHTeQBqUEeq-Gqhb9j-Jeg"/>
         <transition xmi:type="uml:Transition" xmi:id="_OUfzABqUEeq-Gqhb9j-Jeg" name="Chargement" source="_LHTeQBqUEeq-Gqhb9j-Jeg" target="_Zad3UBqTEeq-Gqhb9j-Jeg"/>
-        <transition xmi:type="uml:Transition" xmi:id="_c_eZsBqUEeq-Gqhb9j-Jeg" name="Oui" source="_28-S8BqTEeq-Gqhb9j-Jeg" target="_Y0iDQBqUEeq-Gqhb9j-Jeg"/>
         <transition xmi:type="uml:Transition" xmi:id="_lCyI0BqUEeq-Gqhb9j-Jeg" source="_Y0iDQBqUEeq-Gqhb9j-Jeg" target="_h3EawBqUEeq-Gqhb9j-Jeg"/>
+        <transition xmi:type="uml:Transition" xmi:id="_IhKW0BtiEeqazKDeZChFVQ" source="_L6aLoBqTEeq-Gqhb9j-Jeg" target="_SkCyEBqTEeq-Gqhb9j-Jeg"/>
+        <transition xmi:type="uml:Transition" xmi:id="_bNzcIBtiEeqazKDeZChFVQ" name="Oui" source="_SkCyEBqTEeq-Gqhb9j-Jeg" target="_Zad3UBqTEeq-Gqhb9j-Jeg"/>
+        <transition xmi:type="uml:Transition" xmi:id="_te7DEBtiEeqazKDeZChFVQ" name="Oui" source="_28-S8BqTEeq-Gqhb9j-Jeg" target="_Y0iDQBqUEeq-Gqhb9j-Jeg"/>
+        <transition xmi:type="uml:Transition" xmi:id="_qoqLIBtjEeqazKDeZChFVQ" name="Non" source="_SkCyEBqTEeq-Gqhb9j-Jeg" target="_ea3YkBtjEeqazKDeZChFVQ"/>
+        <transition xmi:type="uml:Transition" xmi:id="_5laeUBtjEeqazKDeZChFVQ" source="_ea3YkBtjEeqazKDeZChFVQ" target="_h3EawBqUEeq-Gqhb9j-Jeg"/>
         <subvertex xmi:type="uml:Pseudostate" xmi:id="_L6aLoBqTEeq-Gqhb9j-Jeg" name="Start"/>
-        <subvertex xmi:type="uml:Pseudostate" xmi:id="_SkCyEBqTEeq-Gqhb9j-Jeg" name="Si 16h30 - 1h (15h30)" kind="choice"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_SkCyEBqTEeq-Gqhb9j-Jeg" name="Si 16h30 - 1h = 15h30" kind="choice"/>
         <subvertex xmi:type="uml:State" xmi:id="_Zad3UBqTEeq-Gqhb9j-Jeg" name="Lecture du capteur"/>
         <subvertex xmi:type="uml:Pseudostate" xmi:id="_28-S8BqTEeq-Gqhb9j-Jeg" name="Batterie Chargé ?" kind="choice"/>
         <subvertex xmi:type="uml:State" xmi:id="_LHTeQBqUEeq-Gqhb9j-Jeg" name="Chargement"/>
         <subvertex xmi:type="uml:State" xmi:id="_Y0iDQBqUEeq-Gqhb9j-Jeg" name="Return OK au PC"/>
         <subvertex xmi:type="uml:FinalState" xmi:id="_h3EawBqUEeq-Gqhb9j-Jeg" name="End"/>
+        <subvertex xmi:type="uml:State" xmi:id="_ea3YkBtjEeqazKDeZChFVQ" name="Return NOK au PC"/>
       </region>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PnsWgBpjEeq-Gqhb9j-Jeg">
