@@ -31,10 +31,11 @@ On aurait pu ajouter une batterie à la voiture, mais cela reste du détails pour 
 
 ## Le diagramme dynamique : Diagrame Machine à état
 
-![StateMachineDiagram](./diagrams/PNGs/NewSysML1_4StateMachineDiagram.PNG)
-
 Nous allons supposer que la voiture met 1h à charger (il faudrait les specs de la voitures pour utiliser le bon temps)
 
 Lors qu'il sera 16h30 - 1h soit 15h30 (ainsi on est sur d'avoir le temps de recharger totalement ou partiellement la batterie) , nous interrogeons le capteur de charge de la voiture afin de déterminer s'il faut recharger la voiture.
 * Si oui, on lance alors la charge pour une petite pèriode puis on reboucle sur l'évaluation du capteur.
 * Si non, la voiture est préte, le capteur va notifier l'unité centrale afin d'indiquer que la voiture est chargée.
+
+
+![StateMachineDiagram](./diagrams/PNGs/NewSysML1_4StateMachineDiagram.PNG)
