@@ -37,7 +37,7 @@ La batterie va être chargé via une prise secteur en passant par le port d'entrée
 Il s'agit du poste de contrôle qui va centraliser l'analyse et la manipulation des données issues de chaque capteur. Ains via un port entrant, il va écouter les capteurs afin de pouvoir faire ses calculs.
 Une fois les calculs finis les résultats seront soit redirigés vers une interface graphique, soit vers un port de sortie s'il s'agit d'une décision sur une action à mener.(exemple : lancer le chargement de la voiture).	  
 
-![InternalBlockDiagram](./diagrams/PNGs/diagrams/PNGs/SysML1_4InternalBlockDiagram_PC.PNG)
+![InternalBlockDiagram](./diagrams/PNGs/SysML1_4InternalBlockDiagram_PC.PNG)
 
 ## Le diagramme dynamique : Diagrame Machine à état
 
