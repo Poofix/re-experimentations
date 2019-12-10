@@ -235,6 +235,32 @@
         <subvertex xmi:type="uml:State" xmi:id="_ea3YkBtjEeqazKDeZChFVQ" name="Return NOK au PC"/>
       </region>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e4_CgBtkEeqazKDeZChFVQ" name="PC">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_pMqRwBtkEeqazKDeZChFVQ" name="FlowPort1" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_tpUDQBtkEeqazKDeZChFVQ" name="FlowPort2" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_39H1YBtkEeqazKDeZChFVQ" name="Calcul" type="_BHBZIBtlEeqazKDeZChFVQ" aggregation="composite" association="_BHGRoBtlEeqazKDeZChFVQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_XFnXYBtlEeqazKDeZChFVQ" name="Interface" type="_Y6TBEBtlEeqazKDeZChFVQ" aggregation="composite" association="_Y6YgoBtlEeqazKDeZChFVQ"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_SCYHABtlEeqazKDeZChFVQ" name="Connector4">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_SCZ8MBtlEeqazKDeZChFVQ" role="_39H1YBtkEeqazKDeZChFVQ"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_SCajQBtlEeqazKDeZChFVQ" role="_pMqRwBtkEeqazKDeZChFVQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_UAmuQBtlEeqazKDeZChFVQ" name="Connector5">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_UAn8YBtlEeqazKDeZChFVQ" role="_39H1YBtkEeqazKDeZChFVQ"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_UAojcBtlEeqazKDeZChFVQ" role="_tpUDQBtkEeqazKDeZChFVQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_iReL0BtlEeqazKDeZChFVQ" name="Connector7">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_iRgoEBtlEeqazKDeZChFVQ" role="_39H1YBtkEeqazKDeZChFVQ"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_iRhPIBtlEeqazKDeZChFVQ" role="_XFnXYBtlEeqazKDeZChFVQ"/>
+      </ownedConnector>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BHBZIBtlEeqazKDeZChFVQ" name="Calcule"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BHGRoBtlEeqazKDeZChFVQ" memberEnd="_39H1YBtkEeqazKDeZChFVQ _BHIt4BtlEeqazKDeZChFVQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_BHIt4BtlEeqazKDeZChFVQ" type="_e4_CgBtkEeqazKDeZChFVQ" association="_BHGRoBtlEeqazKDeZChFVQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Y6TBEBtlEeqazKDeZChFVQ" name="Interface"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Y6YgoBtlEeqazKDeZChFVQ" memberEnd="_XFnXYBtlEeqazKDeZChFVQ _Y6bj8BtlEeqazKDeZChFVQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Y6bj8BtlEeqazKDeZChFVQ" type="_e4_CgBtkEeqazKDeZChFVQ" association="_Y6YgoBtlEeqazKDeZChFVQ"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PnsWgBpjEeq-Gqhb9j-Jeg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pns9kBpjEeq-Gqhb9j-Jeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -319,4 +345,9 @@
   <Blocks:Block xmi:id="_2Zgg4RqQEeq-Gqhb9j-Jeg" base_Class="_11xhsBqQEeq-Gqhb9j-Jeg"/>
   <DeprecatedElements:FlowPort xmi:id="_2Zgg4hqQEeq-Gqhb9j-Jeg" base_Port="_11xhtBqQEeq-Gqhb9j-Jeg" direction="out"/>
   <Blocks:Block xmi:id="_8CQ5IBqQEeq-Gqhb9j-Jeg" base_Class="_8COc4BqQEeq-Gqhb9j-Jeg"/>
+  <Blocks:Block xmi:id="_e5hOABtkEeqazKDeZChFVQ" base_Class="_e4_CgBtkEeqazKDeZChFVQ"/>
+  <DeprecatedElements:FlowPort xmi:id="_pM3GEBtkEeqazKDeZChFVQ" base_Port="_pMqRwBtkEeqazKDeZChFVQ" direction="in"/>
+  <DeprecatedElements:FlowPort xmi:id="_tpfpcBtkEeqazKDeZChFVQ" base_Port="_tpUDQBtkEeqazKDeZChFVQ" direction="out"/>
+  <Blocks:Block xmi:id="_BHFDgBtlEeqazKDeZChFVQ" base_Class="_BHBZIBtlEeqazKDeZChFVQ"/>
+  <Blocks:Block xmi:id="_Y6XSgBtlEeqazKDeZChFVQ" base_Class="_Y6TBEBtlEeqazKDeZChFVQ"/>
 </xmi:XMI>
